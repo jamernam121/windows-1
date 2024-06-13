@@ -35,7 +35,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "win11"
+      VERSION: "ltsc10"
     devices:
       - /dev/kvm
     cap_add:
